@@ -20,7 +20,7 @@ interface ApiPayload {
 
 const openai = new OpenAI();
 export const runtime = 'edge';
-const CONTRACT_ADDRESS = '0x23d3B7aFfD6D7dC228007F1C6A15fE332E21baBc';
+const CONTRACT_ADDRESS = '0xfaFFE6eaa043A56e2DA8e38E4c264182bC643027';
 
 export async function POST(req: Request) {
   const { messages } = await req.json();
